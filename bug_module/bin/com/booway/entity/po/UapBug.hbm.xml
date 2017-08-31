@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-8-29 19:50:21 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.booway.entity.po.UapBug" table="UAP_BUG">
+        <id name="id" type="java.lang.String">
+            <column name="ID" length="32" />
+            <generator class="uuid"></generator>
+        </id>
+        <property name="name" type="java.lang.String" lazy="true">
+            <column name="NAME" precision="100" scale="0"></column>
+        </property>
+        <property name="projectId" type="java.lang.String" lazy="true">
+            <column name="PROJECT_ID" precision="32" scale="0"></column>
+        </property>
+        <property name="moduleId" type="java.lang.String" lazy="true">
+            <column name="MODULE_ID" precision="32" scale="0"></column>
+        </property>
+        <property name="bugState" type="java.lang.String" lazy="true">
+            <column name="BUG_STATE" precision="10" scale="0"></column>
+        </property>
+        <property name="bugLevel" type="java.lang.String" lazy="true">
+            <column name="BUG_LEVEL" precision="10" scale="0"></column>
+        </property>
+        <property name="bugCreater" type="java.lang.String" lazy="true">
+            <column name="BUG_CREATER" precision="20" scale="0"></column>
+        </property>
+        <property name="bugCtime" type="java.util.Date" lazy="true">
+            <column name="BUG_CTIME" precision="10" scale="0" sql-type="date"></column>
+        </property>
+        <property name="bugDesc" type="java.lang.String" lazy="true">
+            <column name="BUG_DESC" precision="500" scale="0"></column>
+        </property>
+        <property name="bugFile" type="java.lang.String" lazy="true">
+            <column name="BUG_FILE" precision="100" scale="0"></column>
+        </property>
+    </class>
+</hibernate-mapping>

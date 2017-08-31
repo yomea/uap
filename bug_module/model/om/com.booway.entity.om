@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Model id="cbaf12e603794f09888c8e2cf46969fd" name="entity" displayName="entity" stereotype="3" nameSpace="com.booway">
+  <VersionInfo>
+    <CreatedTime>2017-08-29 19:50:08</CreatedTime>
+    <ChangedTime>2017-08-29 19:50:18</ChangedTime>
+    <Description>This is a demo model.</Description>
+    <Version>1.0</Version>
+    <Creator>may</Creator>
+    <Modifier>may</Modifier>
+  </VersionInfo>
+  <Package id="5847f3b8b7bd448496a9c17ce5b301eb" name="entity" displayName="entity" stereotype="3">
+    <Diagrams>
+      <Diagram id="26bb8cac4d45447c92f09141216b5b31" name="entity" displayName="entity" stereotype="3">
+        <DiagramStyle>
+          <BackGroundColor>white</BackGroundColor>
+          <GridStyle>false</GridStyle>
+          <ZoomScale>100%</ZoomScale>
+          <Layout></Layout>
+        </DiagramStyle>
+        <Elements>
+          <Element id="8e7aed521f3a4a7992353e79a3074ee6" objectId="caded0ddbb48413395e9c90242cc0fd9">
+            <ElementStyle>
+              <FontFamily></FontFamily>
+              <FontSize>0</FontSize>
+              <Width>150</Width>
+              <Height>200</Height>
+              <Position_X>10.0</Position_X>
+              <Position_Y>40.0</Position_Y>
+              <End_Position_X>0.0</End_Position_X>
+              <End_Position_Y>0.0</End_Position_Y>
+              <Point_List></Point_List>
+              <Border>false</Border>
+              <BorderColor></BorderColor>
+              <BackGroundColor></BackGroundColor>
+            </ElementStyle>
+          </Element>
+          <Element id="b0d20bfb234240f0a6f105597d9f53f3" objectId="4a59c78d04f04a7da1c26580ff29463a">
+            <ElementStyle>
+              <FontFamily></FontFamily>
+              <FontSize>0</FontSize>
+              <Width>150</Width>
+              <Height>200</Height>
+              <Position_X>170.0</Position_X>
+              <Position_Y>40.0</Position_Y>
+              <End_Position_X>0.0</End_Position_X>
+              <End_Position_Y>0.0</End_Position_Y>
+              <Point_List></Point_List>
+              <Border>false</Border>
+              <BorderColor></BorderColor>
+              <BackGroundColor></BackGroundColor>
+            </ElementStyle>
+          </Element>
+          <Element id="87b366c66ea04b52b3cacefc0399b9e2" objectId="d95f4b312e7a4bb589e4747e889677b3">
+            <ElementStyle>
+              <FontFamily></FontFamily>
+              <FontSize>0</FontSize>
+              <Width>150</Width>
+              <Height>200</Height>
+              <Position_X>330.0</Position_X>
+              <Position_Y>40.0</Position_Y>
+              <End_Position_X>0.0</End_Position_X>
+              <End_Position_Y>0.0</End_Position_Y>
+              <Point_List></Point_List>
+              <Border>false</Border>
+              <BorderColor></BorderColor>
+              <BackGroundColor></BackGroundColor>
+            </ElementStyle>
+          </Element>
+        </Elements>
+      </Diagram>
+    </Diagrams>
+    <BusinessClasses>
+      <BusinessClass id="caded0ddbb48413395e9c90242cc0fd9" name="UapBug" displayName="UapBug" stereotype="3">
+        <TableName>uap_bug</TableName>
+        <IsAbstract>false</IsAbstract>
+        <Properties>
+          <Property id="80bd227fe8a04e2b8307dce58c1a3797" name="id" displayName="id" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>0</OrderNum>
+            <Editor id="431d6a8166fd4e0389ef0b40fee70ea7" name="" displayName="" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>id</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>32</DBDataLength>
+            <DBDataPrecision></DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>true</IsPrimaryKey>
+            <Unique>true</Unique>
+            <Nullable>false</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+            <PkName></PkName>
+            <PrimaryKeyPloy>UUID</PrimaryKeyPloy>
+          </Property>
+          <Property id="ddb33fa03be1491690b6b37f119dec27" name="name" displayName="name" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>1</OrderNum>
+            <Editor id="5c1f1d1ab178440c81b5cc5bcf1588af" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>name</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="aa453ad5ea7f4df090095ccc3bce2582" name="projectId" displayName="project_id" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>2</OrderNum>
+            <Editor id="6ae2f7c797974dee9cc52d8a1e8f4db1" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>project_id</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>32</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="4771af1989db46288da342f061dc3f2c" name="moduleId" displayName="module_id" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>3</OrderNum>
+            <Editor id="cb8d8e461374498580fa6f4de85668d2" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>module_id</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>32</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="ba57daf32f8c43eb80fbc7f1763aabcf" name="bugState" displayName="bug_state" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>4</OrderNum>
+            <Editor id="b5569ee534a14a2489e6629b205ef853" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>bug_state</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>10</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="e5ec162e1e8540ca94d9a588ccf0497f" name="bugLevel" displayName="bug_level" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>5</OrderNum>
+            <Editor id="dd77f907eb53466f9dd342831ab19dd7" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>bug_level</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>10</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="f9e1f85ee30e428a9e47aab0abc960c7" name="bugCreater" displayName="bug_creater" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>6</OrderNum>
+            <Editor id="45f16dd4e2da4726a3185cee76b7f4ba" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>bug_creater</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>20</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="33a87638e312416ea4a913d98a38ee6c" name="bugCtime" displayName="bug_ctime" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>date</DataType>
+            <OrderNum>7</OrderNum>
+            <Editor id="56d3c69dacde4c5fa3d8305069ee31ac" name="" displayName="" stereotype="3" editorType="DateEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>bug_ctime</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>10</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="d217b0e2a217448ab3ec9cd7252cf1be" name="bugDesc" displayName="bug_desc" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>8</OrderNum>
+            <Editor id="3c14188bd97d4a3495fc17a72b7ec945" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>bug_desc</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>500</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="44f427ea960c4cd499eb78b2fda8804a" name="bugFile" displayName="bug_file" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>9</OrderNum>
+            <Editor id="638ebe383f6f4d7bac2f673c03b68f4a" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>bug_file</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+        </Properties>
+        <ExtendAttributies/>
+        <Operations>
+          <Operation id="6fabe85e0c724981be6cb9f2ac9a7879" name="add" displayName="新增" stereotype="3" operationType="standard"/>
+          <Operation id="1c96102953974ffabc332667c88f9d26" name="update" displayName="编辑" stereotype="3" operationType="standard"/>
+          <Operation id="e7e098c6148145209c2860118ab40dd6" name="delete" displayName="删除" stereotype="3" operationType="standard"/>
+          <Operation id="0f5d4744c770484e90f47f3b0fea6f7f" name="get" displayName="获取详情" stereotype="3" operationType="standard"/>
+          <Operation id="03e64549caa149048b5eda6aa6050883" name="query" displayName="查询列表" stereotype="3" operationType="standard"/>
+        </Operations>
+      </BusinessClass>
+      <BusinessClass id="4a59c78d04f04a7da1c26580ff29463a" name="UapModule" displayName="UapModule" stereotype="3">
+        <TableName>uap_module</TableName>
+        <IsAbstract>false</IsAbstract>
+        <Properties>
+          <Property id="c5c8fd29e0554eba9894d3d0ccc2bf57" name="id" displayName="id" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>0</OrderNum>
+            <Editor id="c19113a56dc04042a9211da67b1027bf" name="" displayName="" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>id</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>32</DBDataLength>
+            <DBDataPrecision></DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>true</IsPrimaryKey>
+            <Unique>true</Unique>
+            <Nullable>false</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+            <PkName></PkName>
+            <PrimaryKeyPloy>UUID</PrimaryKeyPloy>
+          </Property>
+          <Property id="71036ab1b9dc43bfa2d6cb40ec0e8ffc" name="name" displayName="name" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>1</OrderNum>
+            <Editor id="f8e599ab816743bb8dd67e33f0733777" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>name</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>50</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="dd1dfef5246a4fe1b7c60c35c4192c8a" name="projectId" displayName="project_id" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>2</OrderNum>
+            <Editor id="88185ec3f6274573b87cd192c76792b2" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>project_id</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>32</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+        </Properties>
+        <ExtendAttributies/>
+        <Operations>
+          <Operation id="2a380125b2b44c38bbac20304d5bebc0" name="add" displayName="新增" stereotype="3" operationType="standard"/>
+          <Operation id="bbfeeadcaeef46acbb6dce7f61586331" name="update" displayName="编辑" stereotype="3" operationType="standard"/>
+          <Operation id="59f5804eb4f44c3ab4156a964f8a4a58" name="delete" displayName="删除" stereotype="3" operationType="standard"/>
+          <Operation id="b4fb2b7fa1034deeac1b1a2aeb420947" name="get" displayName="获取详情" stereotype="3" operationType="standard"/>
+          <Operation id="925d1ba2079842f8bdccd40277d7a643" name="query" displayName="查询列表" stereotype="3" operationType="standard"/>
+        </Operations>
+      </BusinessClass>
+      <BusinessClass id="d95f4b312e7a4bb589e4747e889677b3" name="UapProject" displayName="UapProject" stereotype="3">
+        <TableName>uap_project</TableName>
+        <IsAbstract>false</IsAbstract>
+        <Properties>
+          <Property id="0f6f38ec346147fe83f17462f2aee9aa" name="id" displayName="id" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>0</OrderNum>
+            <Editor id="f1333522bb7944d6aadad31f7475b299" name="" displayName="" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>id</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>32</DBDataLength>
+            <DBDataPrecision></DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>true</IsPrimaryKey>
+            <Unique>true</Unique>
+            <Nullable>false</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+            <PkName></PkName>
+            <PrimaryKeyPloy>UUID</PrimaryKeyPloy>
+          </Property>
+          <Property id="def1576a3dd946c5bd8e05238589832e" name="name" displayName="name" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>1</OrderNum>
+            <Editor id="db475fab42214afea01927acf01edce8" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>name</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>50</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+        </Properties>
+        <ExtendAttributies/>
+        <Operations>
+          <Operation id="58d16d6f9a7a4facba6aae6ab800a8d7" name="add" displayName="新增" stereotype="3" operationType="standard"/>
+          <Operation id="f341e702a8634a98bcf2973c3ea789f3" name="update" displayName="编辑" stereotype="3" operationType="standard"/>
+          <Operation id="8b3cbf5257c642b68da7f09292dd8bef" name="delete" displayName="删除" stereotype="3" operationType="standard"/>
+          <Operation id="0f1c3d622d534f19897095e3fc439547" name="get" displayName="获取详情" stereotype="3" operationType="standard"/>
+          <Operation id="0774e7685b3740b7bc9f3c260885e78b" name="query" displayName="查询列表" stereotype="3" operationType="standard"/>
+        </Operations>
+      </BusinessClass>
+    </BusinessClasses>
+  </Package>
+</Model>
