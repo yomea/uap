@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Model id="f7c1c8977d2a4eb5bf245ea439e93c59" name="User" displayName="User" stereotype="3" nameSpace="com.booway">
+  <VersionInfo>
+    <CreatedTime>2017-08-12 19:42:26</CreatedTime>
+    <ChangedTime>2017-08-13 15:21:03</ChangedTime>
+    <Description>This is a demo model.</Description>
+    <Version>1.0</Version>
+    <Creator>may</Creator>
+    <Modifier>may</Modifier>
+  </VersionInfo>
+  <Package id="bccc0a2dcf3744f89ff1a3d29716e116" name="User" displayName="User" stereotype="3">
+    <Diagrams>
+      <Diagram id="eaeb5ad0fc0f4a679be887bdda36a9f2" name="User" displayName="User" stereotype="3" isDefault="true">
+        <DiagramStyle>
+          <BackGroundColor>white</BackGroundColor>
+          <GridStyle>false</GridStyle>
+          <ZoomScale>100%</ZoomScale>
+          <Layout></Layout>
+        </DiagramStyle>
+        <Elements>
+          <Element id="022e3853ca434c0facd0fec5d7bcd33a" objectId="19d1eadebfd94d1f96d55e559c661114">
+            <ElementStyle>
+              <FontFamily></FontFamily>
+              <FontSize>0</FontSize>
+              <Width>0</Width>
+              <Height>0</Height>
+              <Position_X>0.0</Position_X>
+              <Position_Y>0.0</Position_Y>
+              <End_Position_X>0.0</End_Position_X>
+              <End_Position_Y>0.0</End_Position_Y>
+              <Point_List></Point_List>
+              <Border>false</Border>
+              <BorderColor></BorderColor>
+              <BackGroundColor></BackGroundColor>
+            </ElementStyle>
+          </Element>
+          <Element id="3829d91331784e8e88ba69ced7832110" objectId="2df305a2d98640ab94476a0cc2a800cd">
+            <ElementStyle>
+              <FontFamily></FontFamily>
+              <FontSize>0</FontSize>
+              <Width>150</Width>
+              <Height>200</Height>
+              <Position_X>10.0</Position_X>
+              <Position_Y>30.0</Position_Y>
+              <End_Position_X>0.0</End_Position_X>
+              <End_Position_Y>0.0</End_Position_Y>
+              <Point_List></Point_List>
+              <Border>false</Border>
+              <BorderColor></BorderColor>
+              <BackGroundColor></BackGroundColor>
+            </ElementStyle>
+          </Element>
+          <Element id="d95036fc59764639bfbedbd48b70473b" objectId="13fe2f4edd294e2caad8f2a2ed943c5f">
+            <ElementStyle>
+              <FontFamily></FontFamily>
+              <FontSize>0</FontSize>
+              <Width>150</Width>
+              <Height>200</Height>
+              <Position_X>10.0</Position_X>
+              <Position_Y>280.0</Position_Y>
+              <End_Position_X>0.0</End_Position_X>
+              <End_Position_Y>0.0</End_Position_Y>
+              <Point_List></Point_List>
+              <Border>false</Border>
+              <BorderColor></BorderColor>
+              <BackGroundColor></BackGroundColor>
+            </ElementStyle>
+          </Element>
+          <Element id="56bf10a2a4174ed6bc821a831b79ecb5" objectId="be1f46e002e24003bfc7a2df1f6986a7">
+            <ElementStyle>
+              <FontFamily></FontFamily>
+              <FontSize>0</FontSize>
+              <Width>160</Width>
+              <Height>200</Height>
+              <Position_X>314.0</Position_X>
+              <Position_Y>303.0</Position_Y>
+              <End_Position_X>0.0</End_Position_X>
+              <End_Position_Y>0.0</End_Position_Y>
+              <Point_List></Point_List>
+              <Border>false</Border>
+              <BorderColor></BorderColor>
+              <BackGroundColor></BackGroundColor>
+            </ElementStyle>
+          </Element>
+        </Elements>
+      </Diagram>
+    </Diagrams>
+    <BusinessClasses>
+      <BusinessClass id="2df305a2d98640ab94476a0cc2a800cd" name="ProductType" displayName="ProductType" stereotype="3">
+        <VersionInfo>
+          <CreatedTime>2017-08-12 19:51:04</CreatedTime>
+          <ChangedTime>2017-08-13 15:21:03</ChangedTime>
+          <Description></Description>
+          <Version>3</Version>
+          <Creator>may</Creator>
+          <Modifier>may</Modifier>
+        </VersionInfo>
+        <TableName>product_type</TableName>
+        <IsAbstract>false</IsAbstract>
+        <Properties>
+          <Property id="01589d40ba6c4523a0a7bc7787190a5b" name="typeid" displayName="typeId" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>0</OrderNum>
+            <Validators>
+              <Validator id="af3cc1365dc44919833ab7150ba1a37f" name="NOTNULL" displayName="必填校验" orderNumber="0" validatorType="NOTNULL" validatorMessage="不能为空" expression="" validatorClass="" interfaceName=""/>
+            </Validators>
+            <Editor id="129bfabf0093495681e6cb83548689be" name="" displayName="" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>typeId</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>10</DBDataLength>
+            <DBDataPrecision></DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>true</IsPrimaryKey>
+            <Unique>true</Unique>
+            <Nullable>false</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+            <PkName>PRIMARY_KEY_TYPEID</PkName>
+            <PrimaryKeyPloy>ASSIGNED</PrimaryKeyPloy>
+          </Property>
+          <Property id="6832e9ab12a547f2a51dd4b222c26e49" name="typename" displayName="typeName" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>1</OrderNum>
+            <Validators>
+              <Validator id="f705092cf9d9428298a894ba9c214b67" name="NOTNULL" displayName="必填校验" stereotype="3" orderNumber="0" validatorType="NOTNULL" validatorMessage="不能为空" expression="" validatorClass="" interfaceName=""/>
+            </Validators>
+            <Editor id="3b83b7e85de248e893037415c84f223f" name="" displayName="" editorType="ComboBox" dataSourceType="0">
+              <Params>
+                <Param>
+                  <name>EnumerationId</name>
+                  <value>be1f46e002e24003bfc7a2df1f6986a7</value>
+                </Param>
+              </Params>
+            </Editor>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>typeName</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>255</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>false</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+        </Properties>
+        <ExtendAttributies/>
+        <Operations>
+          <Operation id="2fba484561504206889bbd667f8b525e" name="add" displayName="新增" stereotype="3" operationType="standard"/>
+          <Operation id="55c3ec7ed822437194562e16df364a7d" name="update" displayName="编辑" stereotype="3" operationType="standard"/>
+          <Operation id="885b6c1f3e834865891843441c1af9fc" name="delete" displayName="删除" stereotype="3" operationType="standard"/>
+          <Operation id="f63fefaf05df4c79ba16bb8c7f63bd10" name="get" displayName="获取详情" stereotype="3" operationType="standard"/>
+          <Operation id="6ed2580b28e34ca5bf2db626a21e8840" name="query" displayName="查询列表" stereotype="3" operationType="standard"/>
+        </Operations>
+      </BusinessClass>
+      <BusinessClass id="13fe2f4edd294e2caad8f2a2ed943c5f" name="TProduct" displayName="TProduct" stereotype="3">
+        <VersionInfo>
+          <CreatedTime>2017-08-12 19:54:56</CreatedTime>
+          <ChangedTime>2017-08-13 15:21:03</ChangedTime>
+          <Description></Description>
+          <Version>1</Version>
+          <Creator>may</Creator>
+          <Modifier>may</Modifier>
+        </VersionInfo>
+        <TableName>t_product</TableName>
+        <IsAbstract>false</IsAbstract>
+        <Properties>
+          <Property id="2455f125fff74cd1bc98b93af58dfba7" name="productid" displayName="productId" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>0</OrderNum>
+            <Validators>
+              <Validator id="a0b2167e56714b7f8e3ead5c477a9af3" name="DIGIT" displayName="数字校验器（包含小数）" orderNumber="0" validatorType="DIGIT" validatorMessage="必须为数字" expression="" validatorClass="" interfaceName="">
+                <Params>
+                  <Param>
+                    <name>minValue</name>
+                    <value>1</value>
+                  </Param>
+                  <Param>
+                    <name>maxValue</name>
+                    <value>111111111111111111111</value>
+                  </Param>
+                </Params>
+              </Validator>
+            </Validators>
+            <Editor id="0be0c90c838d4d6a89187471a8ac958f" name="" displayName="" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>productId</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>10</DBDataLength>
+            <DBDataPrecision></DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>true</IsPrimaryKey>
+            <Unique>true</Unique>
+            <Nullable>false</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+            <PkName>PRIMARY_KEY_PRODUCTID</PkName>
+            <PrimaryKeyPloy>ASSIGNED</PrimaryKeyPloy>
+          </Property>
+          <Property id="5ddf7f350eaa443281a71d0be1dc443c" name="name" displayName="name" stereotype="3">
+            <GroupId></GroupId>
+            <DataType>string</DataType>
+            <OrderNum>1</OrderNum>
+            <Validators>
+              <Validator id="758065edc8e24c25bb28c5f8ff7d620c" name="NOTNULL" displayName="必填校验" stereotype="3" orderNumber="0" validatorType="NOTNULL" validatorMessage="不能为空" expression="" validatorClass="" interfaceName=""/>
+            </Validators>
+            <Editor id="ba76219c02f34402a7b732e8d90f673c" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DefaultValue></DefaultValue>
+            <DBColumnName>name</DBColumnName>
+            <DBDataType></DBDataType>
+            <DBDataLength>255</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>false</Nullable>
+            <ReadOnly>false</ReadOnly>
+            <IndexedColumn>false</IndexedColumn>
+            <Persistence>true</Persistence>
+          </Property>
+        </Properties>
+        <ExtendAttributies/>
+        <Operations>
+          <Operation id="12f65c7557f4402780cfa45ad1db355f" name="add" displayName="新增" stereotype="3" operationType="standard"/>
+          <Operation id="b47ca26f340640e2bff707780cd36b02" name="update" displayName="编辑" stereotype="3" operationType="standard"/>
+          <Operation id="1d18a5b0ff194c18939f652e5b4d3d18" name="delete" displayName="删除" stereotype="3" operationType="standard"/>
+          <Operation id="dd656f57921b463c8bfe8c0d1892df2b" name="get" displayName="获取详情" stereotype="3" operationType="standard"/>
+          <Operation id="f8ea00b90b0f48b997c41ef32e1da03f" name="query" displayName="查询列表" stereotype="3" operationType="standard"/>
+        </Operations>
+      </BusinessClass>
+    </BusinessClasses>
+    <Enumerations>
+      <Enumeration id="be1f46e002e24003bfc7a2df1f6986a7" name="Enum_" displayName="Enum_" stereotype="1">
+        <VersionInfo>
+          <CreatedTime>2017-08-12 19:48:22</CreatedTime>
+          <ChangedTime>2017-08-13 15:21:03</ChangedTime>
+          <Description></Description>
+          <Version>2</Version>
+          <Creator>may</Creator>
+          <Modifier>may</Modifier>
+        </VersionInfo>
+        <Element name="Man" value="0"/>
+        <Element name="Woman" value="1"/>
+      </Enumeration>
+    </Enumerations>
+    <Associations>
+      <Association id="19d1eadebfd94d1f96d55e559c661114" name="ProductType_TProduct" displayName="ProductType_TProduct" stereotype="3">
+        <ClassA>2df305a2d98640ab94476a0cc2a800cd</ClassA>
+        <ClassB>13fe2f4edd294e2caad8f2a2ed943c5f</ClassB>
+        <Type>1-m</Type>
+        <CascadeDeleteClassA>false</CascadeDeleteClassA>
+        <CascadeDeleteClassB>false</CascadeDeleteClassB>
+        <NavigateToClassA>true</NavigateToClassA>
+        <NavigateToClassB>true</NavigateToClassB>
+        <navigateToClassBRoleName>tproducts</navigateToClassBRoleName>
+        <navigateToClassARoleName>producttype</navigateToClassARoleName>
+        <MajorClassId>2df305a2d98640ab94476a0cc2a800cd</MajorClassId>
+        <PersistencePloy></PersistencePloy>
+        <PersistencePloyParams>
+          <Param>
+            <name>ForeignKeyInB</name>
+            <value>TRUE</value>
+          </Param>
+          <Param>
+            <name>DestRelationColumn</name>
+            <value>productId</value>
+          </Param>
+          <Param>
+            <name>ForeignKeyInA</name>
+            <value>FALSE</value>
+          </Param>
+          <Param>
+            <name>ForeignKeyColumnInA</name>
+            <value></value>
+          </Param>
+          <Param>
+            <name>SourceRelationColumn</name>
+            <value>typeId</value>
+          </Param>
+          <Param>
+            <name>ForeignKeyColumnInB</name>
+            <value>typeId</value>
+          </Param>
+        </PersistencePloyParams>
+      </Association>
+    </Associations>
+  </Package>
+</Model>

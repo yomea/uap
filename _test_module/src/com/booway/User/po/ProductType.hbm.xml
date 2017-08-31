@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-8-13 15:21:06 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.booway.User.po.ProductType" table="PRODUCT_TYPE">
+        <id name="typeid" type="java.lang.String">
+            <column name="TYPEID" length="10" />
+            <generator class="assigned"></generator>
+        </id>
+        <set name="tproducts" table="T_PRODUCT" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="typeId" />
+            </key>
+            <one-to-many class="com.booway.User.po.TProduct" />
+        </set>
+        <property name="typename" type="java.lang.String" lazy="true">
+            <column name="TYPENAME" precision="255" scale="0" not-null="true"></column>
+        </property>
+    </class>
+</hibernate-mapping>
